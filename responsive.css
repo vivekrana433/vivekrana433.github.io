@@ -1,0 +1,293 @@
+@media (max-width: 1200px){
+    .index-hero-main-column-col-1 h3 {
+        font-size: 22px;
+    }
+    .index-hero-main-column-col-1 h3.name {
+        margin-top: 8px;
+        font-size: 30px;
+    }
+    .index-hero-main-column-col-1 h2 {
+        font-size: 40px;
+        margin: 8px 0px;
+    }
+    .stats-wrapper {
+        gap: 20px;
+        padding: 20px 20px;
+    }
+    .stats-wrapper .divider {
+        display: none;
+    }
+    a.btn-1 {
+        padding: 14px 28px;
+        font-size: 18px;
+    }
+    a.btn-2 {
+        padding: 14px 28px;
+        font-size: 18px;
+    }
+    .about-wrapper {
+        gap: 20px;
+    }
+    .vivek-portfolio-section {
+        justify-content: start;
+    }
+}
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+    z-index: 1001;
+  }
+
+  .menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 70%;
+    height: 100vh;
+    background: #151313;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 25px;
+    padding: 90px 20px 20px;
+    transition: right 0.4s ease;
+    z-index: 1000;
+  }
+
+  .menu.show {
+    right: 0;
+  }
+
+  .cv-btn {
+    margin-top: 10px;
+  }
+  .index-hero-main-column{
+    flex-wrap: wrap;
+  }
+  .index-hero-main-column-col-2 {
+    width: 100%;
+}
+.index-hero-main-column-col-1 {
+    width: 100%;
+    text-align: center;
+}
+.social-media-accounts {
+    justify-content: center;
+}
+.index-hero-btns {
+    justify-content: center;
+}
+.stats-wrapper {
+    gap: 20px;
+    padding: 20px 20px;
+    max-width: 80%;
+    margin: 30px auto;
+}
+.index-hero-main-column-col-1 h3 {
+    font-size: 36px;
+}
+.index-hero-main-column-col-1 h3.name {
+    margin-top: 14px;
+    font-size: 50px;
+}
+.index-hero-main-column-col-1 h2 {
+    font-size: 60px;
+    margin: 12px 0px;
+}
+.stat-box h2 {
+    font-size: 35px;
+    
+}
+
+nav .logo {
+    font-size: 26px;
+}
+.stat-box {
+    text-align: left;
+}
+.stats-wrapper {
+    gap: 15px;
+    padding: 20px 20px;
+    max-width: 90%;
+    margin: 30px auto;
+    justify-content: space-around;
+}
+.about-wrapper.about-page {
+    align-items: self-start;
+    flex-direction: column;
+}
+.about-wrapper.about-page .about-image h1 {
+    text-align: center;
+}
+.stats-wrapper .divider {
+    display: block;
+}
+.stat-box {
+    padding: 10px;
+}
+.about-image {
+    width: 100%;
+}
+.about-wrapper {
+    gap: 20px;
+    flex-direction: column-reverse;
+}
+.about-content {
+    width: 100%;
+    text-align: center;
+}
+.vivek-portfolio-section {
+    justify-content: center;
+}
+.index-hero {
+    padding: 50px 0px;
+}
+.vivek-project-grid {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 10px;
+    gap: 16px;
+  }
+
+  .vivek-project-grid::-webkit-scrollbar {
+    display: none;
+  }
+
+  .vivek-project-card {
+    flex: 0 0 auto;
+    min-width: 85%;
+    max-width: 320px;
+    scroll-snap-align: start;
+  }
+
+  .vivek-project-title {
+    font-size: 28px;
+  }
+  section.skill-section {
+    padding: 50px 0px;
+}
+section#vivek-portfolio-skills {
+    padding-bottom: 50px;
+}
+.vivek-project-section {
+    padding: 50px 0px;
+}
+.vivek-contact-container {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .vivek-portfolio-about-edu-card {
+    padding: 20px;
+  }
+
+  .vivek-contact-left {
+    order: 2;
+  }
+
+  .vivek-contact-right {
+    order: 1;
+    margin-bottom: 30px;
+  }
+
+  .vivek-contact-button {
+    margin: auto;
+  }
+  .vivek-portfolio-footer-nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .vivek-portfolio-footer-contact {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .vivek-portfolio-footer-social a {
+    margin: 0 6px;
+    font-size: 20px;
+  }
+  .vivek-social-icons {
+    justify-content: center;
+}
+.vivek-portfolio-footer-credit {
+    max-width: 100%;
+}
+}
+
+@media (max-width: 481px){
+    .index-hero-main-column-col-1 h3 {
+        font-size: 26px;
+    }
+    .index-hero-main-column-col-1 h3.name {
+        font-size: 40px;
+    }
+    .index-hero-main-column-col-1 h2 {
+        font-size: 42px;
+    }
+    a.btn-2 {
+        padding: 14px 16px;
+        font-size: 16px;
+    }
+    .stats-wrapper {
+        gap: 0;
+        max-width: 100%;
+    }
+    .index-hero-main-column-col-1 h2 {
+        font-size: 32px;
+        
+    }
+    .stat-box p {
+        font-size: 14px;
+    }
+    .stats-wrapper {
+        padding: 10px 10px;
+    }
+    .index-hero {
+        padding: 30px 0px;
+    }
+    section.skill-section {
+        padding: 30px 0px;
+    }
+    .about-heading h2 {
+        font-size: 30px;
+    }
+    .about-heading p {
+        font-size: 14px;
+    }
+    .container {
+        padding: 0px 15px;
+    }
+    a.btn-1 {
+        padding: 14px 28px;
+        font-size: 16px;
+    }
+    .about-heading {
+        margin-bottom: 20px;
+    }
+    .vivek-portfolio-inner {
+        width: 85px;
+        height: 85px;
+    }
+    .vivek-portfolio-outer {
+        width: 90px;
+        height: 90px;
+    }
+    .about-wrapper {
+        padding-bottom: 20px;
+    }
+    section#vivek-portfolio-skills {
+        padding-bottom: 30px;
+    }
+    .vivek-portfolio-service-section {
+        padding: 30px 0px;
+    }
+    .vivek-project-section {
+        padding: 30px 0px;
+    }
+    .vivek-project-btn {
+        padding: 12px 30px;
+        font-size: 16px;
+    }
+}
